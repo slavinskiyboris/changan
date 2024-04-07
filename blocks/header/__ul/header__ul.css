@@ -1,0 +1,4 @@
+.header__ul {
+    display: flex;
+    gap: 32px;
+}
