@@ -1,0 +1,7 @@
+@import url(../main/__title/main__title.css);
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 56px;
+}

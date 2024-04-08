@@ -1,0 +1,29 @@
+.header__li {
+    color: #666;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+@supports (font-variation-settings: normal) {
+    .header__li {
+        font-family: 'Inter Variable', serif;
+    }
+}
+
+@media (hover: hover) {
+    .header__li:hover {
+        opacity: 0.2;
+    }
+}
+
+@media (hover: none) {
+    .header__li:active {
+        opacity: 0.2;
+    }
+}

@@ -1,0 +1,16 @@
+.main__title {
+    color: #3E3E3E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Typography/H2 */
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 120.833% */
+}
+
+@supports (font-variation-settings: normal) {
+    .main__title {
+        font-family: 'Inter Variable', serif;
+    }
+}

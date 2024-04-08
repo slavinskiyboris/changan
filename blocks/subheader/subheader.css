@@ -1,0 +1,21 @@
+@import url(../subheader/__address/subheader__address.css);
+@import url(../subheader/__link/subheader__link.css);
+@import url(../subheader/__info/subheader__info.css);
+@import url(../subheader/__time/subheader__time.css);
+
+.subheader {
+    border-top: 1px solid #CECECE;
+    display: flex;
+    justify-content: center;
+    background: #FBFBFB;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
+    gap: 36.35vw;
+}
+@media (width < 1220px) {
+    .subheader {
+        padding-right: 86px;
+        padding-left: 86px;
+        gap: 22.17vw;
+        justify-content: space-between
+    }
+}

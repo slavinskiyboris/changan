@@ -1,0 +1,30 @@
+.subheader__link {
+    color: #666;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.5px; /* 120.833% */
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+@supports (font-variation-settings: normal) {
+    .subheader__link {
+        font-family: 'Inter Variable', serif;
+    }
+}
+
+@media (hover: hover) {
+    .subheader__link:hover {
+        opacity: 0.2;
+    }
+}
+
+@media (hover: none) {
+    .subheader__link:active {
+        opacity: 0.2;
+    }
+}

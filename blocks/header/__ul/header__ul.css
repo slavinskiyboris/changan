@@ -2,3 +2,8 @@
     display: flex;
     gap: 32px;
 }
+@media (width < 1024px) {
+    .header__ul {
+        flex-direction: column;
+    }
+}

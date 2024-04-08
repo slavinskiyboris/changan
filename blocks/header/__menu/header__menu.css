@@ -1,4 +1,27 @@
 .header__menu {
     display: flex;
-    gap: 240px;
+    gap: calc(12.5vw);
+    justify-content: space-between;
+}
+
+@media (width < 1220px) {
+    .header__menu {
+        gap: 36.72vw;
+    }
+}
+
+@media (width < 1024px) {
+    .header__menu {
+        gap: 26.56vw;
+    }
+}
+@media (width < 768px) {
+    .header__menu {
+        gap: 11.2vw;
+    }
+}
+@media (width < 376px) {
+    .header__menu {
+        gap: 22.93vw;
+    }
 }

@@ -1,0 +1,8 @@
+.header__logo {
+    padding-block-start: 9px;
+}
+@media (width < 1220px) {
+    .header__logo {
+        padding: 0;
+    }
+}

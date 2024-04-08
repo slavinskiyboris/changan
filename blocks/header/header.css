@@ -1,9 +1,44 @@
-@import url(__ul/header__ul.css);
-@import url(__container/header__container.css);
-@import url(__menu/header__menu.css);
+@import url(../header/__ul/header__ul.css);
+@import url(../header/__container/header__container.css);
+@import url(../header/__menu/header__menu.css);
+@import url(../header/__li/header__li.css);
+@import url(../header/__nav/header__nav.css);
+@import url(../header/__button/header__button.css);
+@import url(../header/__logo/header__logo.css);
 
 .header {
-    margin-block-start: 7px;
+    margin-block-start: 10px;
     display: flex;
     justify-content: center;
+    margin-block-end: 14px;
+}
+
+@media (width < 1220px) {
+    .header {
+        justify-content: normal;
+        padding-left: 86px;
+        padding-right: 86px;
+    }
+}
+
+@media (width < 1024px) {
+    .header {
+        justify-content: normal;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+}
+
+@media (width < 768px) {
+    .header {
+        justify-content: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (width < 376px) {
+    .header {
+        margin-block-start: 18px;
+    }
 }

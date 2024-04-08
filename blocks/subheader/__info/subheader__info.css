@@ -1,0 +1,14 @@
+.subheader__info {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+@media (width < 769px) {
+    .subheader__info {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        z-index: 50;
+        padding-block-start: 350px
+}
+}
