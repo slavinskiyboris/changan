@@ -1,0 +1,30 @@
+.cards__image_kia {
+    position: absolute;
+    top: 132px;
+    right: -60px;
+    width: 271px;
+}
+
+@media (width < 1300px) {
+    .cards__image_kia {
+        width: auto;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@media (width < 900px) {
+    .cards__image_kia {
+        width: 250px;
+        right: 20px;
+        top: 120px;
+    }
+}
+
+@media (width < 700px) {
+    .cards__image_kia {
+        width: 150px;
+        right: -10px;
+        top: 135px;
+    }
+}

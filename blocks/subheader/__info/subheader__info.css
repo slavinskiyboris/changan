@@ -3,12 +3,12 @@
     padding-bottom: 13px;
 }
 
-@media (width < 769px) {
+@media (width < 900px) {
     .subheader__info {
         display: none;
         position: fixed;
         flex-direction: column;
         z-index: 50;
         padding-block-start: 350px
-}
+    }
 }

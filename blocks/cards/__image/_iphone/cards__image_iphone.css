@@ -1,0 +1,30 @@
+.cards__image_iphone {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 95px;
+}
+
+@media (width < 1300px) {
+    .cards__image_iphone {
+        width: 102px;
+        right: 28px;
+        top: 130px;
+    }
+}
+
+@media (width < 900px) {
+    .cards__image_iphone {
+        width: 130px;
+        right: 42px;
+        top: 105px;
+    }
+}
+
+@media (width < 700px) {
+    .cards__image_iphone {
+        width: 75px;
+        right: 15px;
+        top: 122px;
+    }
+}

@@ -1,0 +1,29 @@
+.cards__image_mercedes {
+    padding-block-start: 133px;
+    padding-left: 66px;
+}
+
+@media (width < 1300px) {
+    .cards__image_mercedes {
+        position: absolute;
+        top: 0;
+        width: 280px;
+        right: 0;
+    }
+}
+
+@media (width < 900px) {
+    .cards__image_mercedes {
+        top: -10px;
+        width: 290px;
+        right: 25px;
+    }
+}
+
+@media (width < 700px) {
+    .cards__image_mercedes {
+        top: 0;
+        width: 200px;
+        right: 0;
+    }
+}

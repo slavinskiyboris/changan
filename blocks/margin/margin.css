@@ -1,0 +1,5 @@
+@media (width < 1300px) {
+    .margin {
+        margin-block-start: 22px;
+    }
+}

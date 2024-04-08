@@ -19,7 +19,7 @@
 
 @supports (font-variation-settings: normal) {
     .header__button {
-        font-family: 'Inter Variable', serif;
+        font-family: 'Inter Variable', sans-serif;
     }
 }
 @media (hover: hover) {

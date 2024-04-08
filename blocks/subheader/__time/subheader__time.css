@@ -3,11 +3,10 @@
     padding-bottom: 13px;
 }
 
-@media (width < 769px) {
+@media (width < 900px) {
     .subheader__time {
         display: none;
         position: fixed;
-        flex-direction: column;
         z-index: 50;
         padding-block-start: 300px;
     }

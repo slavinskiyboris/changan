@@ -1,0 +1,9 @@
+@import url(../../cards/__image/_toyota/cards__image_toyota.css);
+@import url(../../cards/__image/_kia/cards__image_kia.css);
+@import url(../../cards/__image/_mercedes/cards__image_mercedes.css);
+@import url(../../cards/__image/_iphone/cards__image_iphone.css);
+
+/*.cards__image {*/
+/*    padding-block-start: 106px;*/
+/*    padding-left: 12px;*/
+/*}*/

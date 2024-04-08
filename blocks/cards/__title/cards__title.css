@@ -1,0 +1,31 @@
+.cards__title {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Typography/H3 */
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 122.222% */
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 12px;
+    max-width: 338px;
+}
+
+@supports (font-variation-settings: normal) {
+    .cards__title {
+        font-family: 'Inter Variable', sans-serif;
+    }
+}
+
+@media (width < 700px) {
+    .cards__title {
+        padding-top: 16px;
+        padding-left: 16px;
+        font-size: 16px;
+        max-width: 244px;
+        padding-bottom: 8px;
+    }
+}

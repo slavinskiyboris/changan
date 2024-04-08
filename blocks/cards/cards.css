@@ -1,0 +1,31 @@
+@import url(../cards/__item/cards__item.css);
+@import url(../cards/__title/cards__title.css);
+@import url(../cards/__description/cards__description.css);
+@import url(../cards/__button/cards__button.css);
+@import url(../cards/__image/cards__image.css);
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 424px);
+    gap: 12px;
+}
+
+@media (width < 1300px) {
+    .cards {
+        grid-template-columns: repeat(2, 420px);
+        grid-template-rows: repeat(2, 233px);
+    }
+}
+@media (width < 900px) {
+    .cards {
+        grid-template-columns: repeat(1, 680px);
+        grid-template-rows: repeat(4, 233px);
+    }
+}
+
+@media (width < 700px) {
+    .cards {
+        grid-template-columns: repeat(1, 335px);
+        grid-template-rows: repeat(4, 194px);
+    }
+}

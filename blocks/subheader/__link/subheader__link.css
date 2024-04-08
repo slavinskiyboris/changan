@@ -13,7 +13,7 @@
 
 @supports (font-variation-settings: normal) {
     .subheader__link {
-        font-family: 'Inter Variable', serif;
+        font-family: 'Inter Variable', sans-serif;
     }
 }
 

@@ -12,7 +12,7 @@
 }
 @supports (font-variation-settings: normal) {
     .header__li {
-        font-family: 'Inter Variable', serif;
+        font-family: 'Inter Variable', sans-serif;
     }
 }
 

@@ -15,13 +15,3 @@
         gap: 26.56vw;
     }
 }
-@media (width < 768px) {
-    .header__menu {
-        gap: 11.2vw;
-    }
-}
-@media (width < 376px) {
-    .header__menu {
-        gap: 22.93vw;
-    }
-}

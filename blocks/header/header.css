@@ -15,7 +15,6 @@
 
 @media (width < 1220px) {
     .header {
-        justify-content: normal;
         padding-left: 86px;
         padding-right: 86px;
     }
@@ -23,7 +22,6 @@
 
 @media (width < 1024px) {
     .header {
-        justify-content: normal;
         padding-left: 44px;
         padding-right: 44px;
     }
@@ -31,13 +29,12 @@
 
 @media (width < 768px) {
     .header {
-        justify-content: normal;
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
-@media (width < 376px) {
+@media (width < 700px) {
     .header {
         margin-block-start: 18px;
     }

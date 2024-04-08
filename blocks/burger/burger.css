@@ -19,9 +19,9 @@
     }
 }
 
-@media (width < 376px) {
+@media (width < 700px) {
     .burger {
-        left: 10px;
+        left: 0;
     }
 }
 .burger__span {
